@@ -1,0 +1,63 @@
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Style the page header */
+h1 {
+    text-align: center;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style the featured products section */
+h2 {
+    text-align: left;
+    padding: 20px;
+    color: #333;
+}
+
+/* Style each featured product */
+.product {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product p {
+    color: #777;
+}
+
+/* Add responsive styling for smaller screens */
+@media (max-width: 480px) {
+    .product {
+        width: 100%;
+    }
+}

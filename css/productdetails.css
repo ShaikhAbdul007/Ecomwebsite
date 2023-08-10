@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Style the page header */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style the product details section */
+.product-details {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+/* Style the "Add to Cart" button */
+#add-to-cart {
+    background-color: #00cc66;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#add-to-cart:hover {
+    background-color: #00b35c;
+}
+
+/* Add responsive styling for smaller screens */
+@media (max-width: 480px) {
+    .product-details {
+        padding: 15px;
+    }
+}
